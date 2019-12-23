@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "server.js",
+    "start:dev": "nodemon server.js"
   },
   "author": "Niyi",
   "license": "ISC",

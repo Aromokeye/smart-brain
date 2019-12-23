@@ -45,7 +45,7 @@ app.use(cors())
 
 //routes implementations 
 app.get('/', (req, res)=>{       
-    res.send(database.user)
+    res.send('its working')
 })
 
 app.post('/signin', (req, res)=>{
